@@ -1,0 +1,359 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* =============== fonts =================== */
+
+h2 {
+  color: #303030;
+}
+i {
+  color: #8e7754;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+/* =============== clear float =================== */
+
+.clear_float {
+  clear: both;
+}
+/* =============== NAV BAR =================== */
+.nav {
+  /* background-color: aqua; */
+  text-align: center;
+  background-image: url("images/drew-coffman-1872.jpg");
+  height: 100vh;
+}
+.nav a {
+  float: right;
+  font-size: 18px;
+}
+.nav a:hover {
+  transition: 0.8s;
+  margin-top: 20px;
+  color: #3469e2;
+  font-size: 20px;
+}
+.nav img {
+  float: left;
+  width: 15%;
+  margin: 5px;
+  padding: 5px;
+}
+
+/* =============== home =================== */
+.home {
+  width: 50%;
+  margin: auto;
+  color: white;
+}
+.home h2 {
+  margin: 150px 20px 30px 20px;
+  padding: 10px;
+  color: #ccc;
+  font-size: 50px;
+}
+.home h1 {
+  margin-bottom: 40px;
+  font-size: 70px;
+  font-family: Alegreya, serif, monospace;
+}
+.home .family_p {
+  margin-bottom: 20px;
+  font-size: 30px;
+  width: 100%;
+  padding: 0;
+  color: #ccc;
+  font-weight: 600;
+}
+button {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.btn {
+  background-color: #8e7754;
+  color: #fff;
+  border: none;
+}
+.btn1 {
+  background-color: transparent;
+  border: 1px solid white;
+  color: #fff;
+}
+button:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 0.8s;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 16px;
+}
+/* =============== section 1 =================== */
+.section_1 {
+  width: 100%;
+  padding: 0px 50px 0 50px;
+  margin: auto;
+  height: 80vh;
+  margin-top: 5%;
+}
+.section_1 img {
+  float: left;
+  width: 50%;
+}
+.con_1 {
+  float: right;
+  width: 40%;
+  margin: 20px;
+  /* margin-top: 50px; */
+  padding-top: 100px;
+}
+.con_1 h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.con_1 .p1 {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.con_1 .i1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.con_1 i {
+  color: #8e7754;
+}
+
+/* =============== section 2 =================== */
+
+.section_2 {
+  width: 100%;
+  padding: 0px 50px 0 50px;
+  margin: auto;
+  height: 80vh;
+  margin-top: 5%;
+  background-color: #f8f8f8;
+}
+.section_2 img {
+  float: right;
+  margin-top: 2%;
+  width: 50%;
+}
+.con_2 {
+  float: left;
+  width: 40%;
+  margin: 20px;
+  /* margin-top: 50px; */
+  padding-top: 100px;
+}
+.con_2 h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 24px;
+}
+.con_2 .p2 {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(99, 99, 99);
+}
+
+/* =============== section  3 =================== */
+
+.our_baking {
+  text-align: center;
+  margin-top: 5%;
+}
+.our_baking h2 {
+  margin-bottom: 40px;
+  padding-top: 4%;
+}
+.our_baking p {
+  margin-bottom: 40px;
+}
+.section_3 {
+  /* background-color: blue; */
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 70px;
+}
+.item {
+  width: 33.33333%;
+
+  float: left;
+  margin: auto;
+  text-align: center;
+}
+.item img {
+  width: 80%;
+  margin-bottom: 20px;
+}
+.item h3 {
+  margin-bottom: 20px;
+}
+.item p {
+  font-size: 16px;
+  color: #686868;
+  line-height: 1.86em;
+  margin: 20px;
+}
+
+/* =============== section  4  =================== */
+
+.section_4 {
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+}
+.con_4 {
+  width: 50%;
+  float: left;
+}
+.contact_info {
+  text-align: center;
+  margin-top: 15%;
+  padding: 20px;
+  padding-left: 40px;
+}
+.contact_info h2 {
+  margin-bottom: 20px;
+}
+.contact_info p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: auto;
+}
+
+.contact_details {
+  padding: 20px;
+  padding-left: 40px;
+}
+.contact_details h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
+.contact_details p {
+  margin-bottom: 20px;
+}
+
+.mapouter {
+  float: right;
+  width: 40%;
+  height: 50%;
+  padding: 50px;
+  margin-top: 5%;
+  text-align: center;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 446px;
+}
+.gmap_iframe {
+  height: 446px !important;
+}
+
+/* =============== section  5 =================== */
+.section_5 {
+  /* background: #000; */
+  background-color: #403d38;
+  padding: auto;
+
+  width: 100%;
+  padding: 3%;
+  height: 60vh;
+}
+.section_5 p,
+a {
+  color: #969696;
+  text-decoration: none;
+}
+.section_5 h2 {
+  color: #fff;
+  margin-top: 5%;
+  padding: 20px;
+}
+.first {
+  /* background-color: aqua; */
+  width: 25%;
+  float: left;
+  padding: 2%;
+  line-height: 2em;
+}
+.first p {
+  font-size: 18px;
+}
+.second {
+  /* background-color: blueviolet; */
+  width: 25%;
+  float: left;
+  padding: 2%;
+  line-height: 2em;
+}
+
+.third {
+  /* background-color: blue; */
+  width: 25%;
+  float: left;
+  padding: 2%;
+  line-height: 2em;
+}
+.fourth {
+  /* background-color: teal; */
+  width: 25%;
+  float: left;
+  line-height: 2em;
+}
+
+/* =============== section  6 =================== */
+
+.section_6 {
+  background-color: #353330;
+  height: 40vh;
+  width: 100%;
+  text-align: center;
+}
+.section_6 img {
+  width: 20%;
+  margin: 40px 0px 40px 0px;
+}
+.section_6 p {
+  margin-bottom: 30px;
+}
+.logos {
+  margin-top: 20px;
+  transition: 0.5s;
+}
+.face :hover {
+  color: #0a82ed;
+  transition: 0.5s;
+}
+.google :hover {
+  color: #cb1212;
+  transition: 0.5s;
+}
+.in :hover {
+  color: #0a66c2;
+  transition: 0.5s;
+}
+.twitter :hover {
+  color: #3797ff;
+  transition: 0.5s;
+}
